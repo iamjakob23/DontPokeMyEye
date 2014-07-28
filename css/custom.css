@@ -1,0 +1,277 @@
+/*------------------------------------------------------
+Start of main navigation elements
+--------------------------------------------------------*/
+/*THE ENTIRE ELEMENT*/
+#mainNav{
+    border-radius: 0px;
+    background: linear-gradient(#000000, #000000);
+    border: 1px;
+    border-color: black;
+    box-shadow: 0px 0px 4px 0px gray;
+}
+
+/*ACTUAL LINK COLOR*/
+#mainNav a{
+    color: #ffffff;
+}
+
+/*HOVER CREATES BOX OVER LINK - COLOR*/
+#mainNav a:hover{
+    background-color: blue;
+}
+
+/*IF DROPDOWN - CREATES EFFECT ON LINK / THEN LIST DROPS DOWN*/
+#mainNav a:focus{
+    background: linear-gradient(white, white);
+}
+
+/*WHEN MOBILE - CHANGES THE TOGGLE BUTTON APPEARANCE*/
+.navbar-toggle{
+    border-radius: 70px;
+    background: linear-gradient(white, white);
+}
+
+/*SITE NAME LISTED IN NAVBAR*/
+#siteNameHead{
+    padding: 0px;
+    /*padding-top: 6px;*/
+    padding-left: 8px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+/*SITE NAME LISTED IN NAVBAR*/
+#siteNameHead2{
+    padding: 14px;
+    /*padding-top: 6px;*/
+    padding-left: 8px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+/*IF THERE ARE DIVIDERS IN DROPDOWN - CONTROLS TEXT APPEAR FOR NON LINKS*/
+#separatorName{
+    padding-left: 8px;
+    color: black;
+    font-weight: bold;
+}
+/*------------------------------------------------------
+End of main navigation elements
+--------------------------------------------------------*/
+
+/*-----------------------------------------------------
+Start for the clickable message alert displayed at 
+top of page
+-------------------------------------------------------*/
+/*IF THERE IS A CLICKABLE ALERT USED*/
+#mainAlert{
+    text-align: center;
+}
+
+/*-----------------------------------------------------
+End for the clickable message alert displayed at 
+top of page
+-------------------------------------------------------*/
+
+/*------------------------------------------------------
+Start of all form elements
+--------------------------------------------------------*/
+/*IF FORM USED IN NAVBAR*/
+#loginForm{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+/*IF TEXT IS USED WITHIN THE NAVBAR LOGIN FORM - BELOW*/
+#signup{
+    text-align: center;
+}
+
+#signup a{
+    color: white;
+}
+
+/*------------------------------------------------------
+End of all form elements
+--------------------------------------------------------*/
+
+/*-----------------------------------------------------
+Start of jumbotro elements
+-------------------------------------------------------*/
+/*CONTROLS DISPLAY OF TOP JUMBOTRON / SITE HEADER*/
+#topJumbo{
+    font-size: 20px;
+    margin: 0px;
+    padding: 14px;
+}
+
+.jumbotron{
+    background-color: white;
+}
+/*-----------------------------------------------------
+End of jumbotro elements
+-------------------------------------------------------*/
+
+/*-----------------------------------------------------
+Start of main container elements
+-------------------------------------------------------*/
+#centerize{
+    text-align: center;
+    margin: auto;
+    max-width: 540px;
+}
+
+#scores{
+    color: #ffffff;
+}
+
+.userImage{
+    top: 0px;
+    left: 80px;
+    padding: 5px;
+    position: absolute;
+}
+
+.compImage{
+    top: 0px;
+    right: 80px;
+    padding: 5px;
+    position: absolute;
+}
+
+#compArrowImageL{
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+#userArrowImageR{
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#mainPanel{
+    overflow: hidden;
+    background-image: url('http://iamjakob.com/Apps/Poke/img/bg.png');
+    background-size: 50%;
+}
+
+/*IF SMALL TEXT IS USED ON HEADER*/
+#headerTitleSmall{
+    color: black;
+}
+
+/*IF LARGE TEXT IS USED ON HEADER*/
+#headerTitle{
+    margin: 0px 10px;
+    background-color: white;
+    color: black;
+}
+
+/*DISPLAY FOR THE MAIN SECTION OF THE BODY*/
+.container-fluid#mainBody{
+    border-radius: 14px;
+    background-color: #000000;
+    margin: 20px;
+    max-width: 500px; 
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
+    box-shadow: 1px 3px 3px 5px gray;
+}
+
+/*DISPLAYED IN THE CONTAINER. DIFF COLOR BOTTOM -- PANEL*/
+#panelBottom{
+    background-image: url('http://iamjakob.com/Apps/Poke/img/bg.png');
+    background-size: 50%;
+}
+
+/*DISPLAYED IN THE CONTAINER. DIFF COLOR TOP -- PANEL*/
+#panelTitle{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mainContainer{
+    font-size: 36px;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - RIGHT SCREEN COLUMN*/
+#rightcolumn{
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - TITLE FOR RIGHT SCREEN COLUMN*/
+#rightTitle{
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - LEFT SCREEN COLUMN*/
+#leftColumn{
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - TITLE FOR RIGHT SCREEN COLUMN*/
+#leftTitle{
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------
+End of main container elements
+-------------------------------------------------------*/
+/*ADJUSTS ALIGNMENT WHEN USING PULL - LEFT*/
+.pull-left{
+    margin: 8px 4px 4px 4px;
+}
+
+/*SETS THE COLOR AND PADDING FOR BACKGROUD PAGE*/
+body{
+    background: linear-gradient(#000000, #000000);
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+/*------------------------------------------------------
+Start of all footer elements
+--------------------------------------------------------*/
+/*CONTROLS TEXT IN FOOTER*/
+#footerClass{
+    text-align: center;
+    background-color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/*ADJUSTS OVERALL PADDING FOR FOOTER*/
+.footer{
+    padding: 15px;
+}
+/*------------------------------------------------------
+End of all footer elements
+--------------------------------------------------------*/
